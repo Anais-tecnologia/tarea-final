@@ -1,0 +1,181 @@
+<html>
+<head>
+    <title> DISEÑO 3D</title>
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/1780/PNG/96/v-avatar_114344.png" type="image/x-icon">
+    <style>
+        body        {
+            background-color: rgb(226, 235, 250);
+        }
+        h1{
+            font-style: oblique;
+            font-size:325%;
+            color:rgb(6, 113, 100); 
+            text-align: center;
+            border: 7px double rgb(69, 67, 67);
+            padding: 10px;
+            
+            
+            
+        }
+        h2{
+            text-align: right;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        }
+        p{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:250%;
+            font-style:italic;
+            text-align: center;
+        }
+        
+
+        
+        footer{
+        
+        text-align: center;
+
+}
+.boton{
+    /*float: right; */
+    margin-right: 20px;
+   
+    
+}
+.contenedorprincipal{
+    display: grid;
+    grid-template-columns: 1fr 5fr; /*  3 columnas con tres fracciones del body*/
+   grid-template-rows: 1fr 2fr;
+   row-gap: 10px;
+   
+    column-gap: 50px;
+
+
+}
+.menulateral{
+grid-column: 1/2;
+
+           
+            
+            margin-left: 10%;
+            
+
+
+} 
+
+.cuerpo{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    
+            
+} 
+.fotos{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    
+}
+header{
+    height: 50px;
+    text-align: right;
+}
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <header>
+        
+        <br>
+        <div class="boton">
+        <a href="https://www.blockscad3d.com/editor/" class="btn btn-outline-dark">LINK A BLOCKSCAD</a>
+        </div>
+    </header>        
+    
+    
+    <br>
+    <h1> Diseño 3D con Blockscad</h1>
+    <br>
+    <div class="contenedorprincipal">
+        <div class="grid-item menulateral">
+        
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  INICIO
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <a href="index.html">INICIO</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 TAZA
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <a href="https://www.blockscad3d.com/editor/docs/tutorial.html"><img src="assets/taza.jpg" height="90"></a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  POKEBALL
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <a href="pokeball.html"><img src="assets/pokeball.jpg" height="90"></a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><!-- al añadir un elemento nuevo hay que modificar esta linea collapseFour -->
+                    MANDALA
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample"><!-- al añadir un elemento nuevo hay que modificar esta linea collapseFour -->
+                  <div class="accordion-body">
+                    <a href="mandala.html"><img src="assets/mandala.jpg" height="90"> </a>
+                  </div>
+                </div>
+              </div>
+            
+          </div> <!-- aqui termina el acordeon -->
+        </div><!-- aqui termina la barra lateral -->
+        <div class="grid-item cuerpo"> 
+            <h2> PÁGINA EN CONSTRUCCIÓN</h2>
+<br>    
+</div><!-- aqui termina el cuerpor de la intro -->
+
+
+    
+
+</div><!-- aqui termina el contenedor general -->
+<hr>
+<br>
+<footer>
+    <img src="https://s3.amazonaws.com/libapps/accounts/53051/images/cc-icons.jpg" height="75">
+    <br>
+    <hr>
+    <hr>
+     Realizado por Ana Isabel González Rivera
+</footer>
+
+</body>
+
+
+
+</html>
